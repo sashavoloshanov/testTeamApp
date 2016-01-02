@@ -14,6 +14,7 @@
 		90969D031C38705C005A57A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90969D011C38705C005A57A1 /* Main.storyboard */; };
 		90969D051C38705C005A57A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90969D041C38705C005A57A1 /* Assets.xcassets */; };
 		90969D081C38705C005A57A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90969D061C38705C005A57A1 /* LaunchScreen.storyboard */; };
+		90969D111C387C2B005A57A1 /* MyNewTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 90969D101C387C2B005A57A1 /* MyNewTestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		90969D041C38705C005A57A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90969D071C38705C005A57A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90969D091C38705C005A57A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90969D0F1C387C2B005A57A1 /* MyNewTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNewTestClass.h; sourceTree = "<group>"; };
+		90969D101C387C2B005A57A1 /* MyNewTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNewTestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 				90969CFE1C38705C005A57A1 /* ViewController.h */,
 				90969CFF1C38705C005A57A1 /* ViewController.m */,
 				143E671C1C387B51006243A8 /* TestVlad.swift */,
+				90969D0F1C387C2B005A57A1 /* MyNewTestClass.h */,
+				90969D101C387C2B005A57A1 /* MyNewTestClass.m */,
 				90969D011C38705C005A57A1 /* Main.storyboard */,
 				90969D041C38705C005A57A1 /* Assets.xcassets */,
 				90969D061C38705C005A57A1 /* LaunchScreen.storyboard */,
@@ -155,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90969D111C387C2B005A57A1 /* MyNewTestClass.m in Sources */,
 				143E671D1C387B51006243A8 /* TestVlad.swift in Sources */,
 				90969D001C38705C005A57A1 /* ViewController.m in Sources */,
 				90969CFD1C38705C005A57A1 /* AppDelegate.m in Sources */,
