@@ -9,5 +9,5 @@
 import UIKit
 
 class TestVlad: NSObject {
-
+    // когда саша мутил клас, а я закомитил
 }
