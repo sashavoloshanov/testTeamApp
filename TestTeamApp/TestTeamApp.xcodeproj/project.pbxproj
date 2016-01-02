@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143E671D1C387B51006243A8 /* TestVlad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143E671C1C387B51006243A8 /* TestVlad.swift */; };
 		90969CFA1C38705C005A57A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90969CF91C38705C005A57A1 /* main.m */; };
 		90969CFD1C38705C005A57A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90969CFC1C38705C005A57A1 /* AppDelegate.m */; };
 		90969D001C38705C005A57A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90969CFF1C38705C005A57A1 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		143E67191C387A88006243A8 /* TestTeamApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestTeamApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		143E671C1C387B51006243A8 /* TestVlad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVlad.swift; sourceTree = "<group>"; };
 		90969CF51C38705C005A57A1 /* TestTeamApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTeamApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90969CF91C38705C005A57A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90969CFB1C38705C005A57A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,11 +65,13 @@
 				90969CFC1C38705C005A57A1 /* AppDelegate.m */,
 				90969CFE1C38705C005A57A1 /* ViewController.h */,
 				90969CFF1C38705C005A57A1 /* ViewController.m */,
+				143E671C1C387B51006243A8 /* TestVlad.swift */,
 				90969D011C38705C005A57A1 /* Main.storyboard */,
 				90969D041C38705C005A57A1 /* Assets.xcassets */,
 				90969D061C38705C005A57A1 /* LaunchScreen.storyboard */,
 				90969D091C38705C005A57A1 /* Info.plist */,
 				90969CF81C38705C005A57A1 /* Supporting Files */,
+				143E67191C387A88006243A8 /* TestTeamApp-Bridging-Header.h */,
 			);
 			path = TestTeamApp;
 			sourceTree = "<group>";
@@ -105,6 +110,7 @@
 		90969CED1C38705C005A57A1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Sasha Voloshanov";
 				TargetAttributes = {
@@ -149,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				143E671D1C387B51006243A8 /* TestVlad.swift in Sources */,
 				90969D001C38705C005A57A1 /* ViewController.m in Sources */,
 				90969CFD1C38705C005A57A1 /* AppDelegate.m in Sources */,
 				90969CFA1C38705C005A57A1 /* main.m in Sources */,
@@ -263,10 +270,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TestTeamApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sashavoloshanov.TestTeamApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestTeamApp/TestTeamApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -274,10 +284,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = TestTeamApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sashavoloshanov.TestTeamApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestTeamApp/TestTeamApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -300,6 +312,7 @@
 				90969D0E1C38705C005A57A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
