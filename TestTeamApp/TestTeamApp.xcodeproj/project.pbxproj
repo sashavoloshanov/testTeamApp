@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		143E671B1C387A89006243A8 /* VladObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143E671A1C387A89006243A8 /* VladObject.swift */; };
+		143E671D1C387B51006243A8 /* TestVlad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143E671C1C387B51006243A8 /* TestVlad.swift */; };
 		90969CFA1C38705C005A57A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90969CF91C38705C005A57A1 /* main.m */; };
 		90969CFD1C38705C005A57A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90969CFC1C38705C005A57A1 /* AppDelegate.m */; };
 		90969D001C38705C005A57A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90969CFF1C38705C005A57A1 /* ViewController.m */; };
@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		143E67191C387A88006243A8 /* TestTeamApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestTeamApp-Bridging-Header.h"; sourceTree = "<group>"; };
-		143E671A1C387A89006243A8 /* VladObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VladObject.swift; sourceTree = "<group>"; };
+		143E671C1C387B51006243A8 /* TestVlad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVlad.swift; sourceTree = "<group>"; };
 		90969CF51C38705C005A57A1 /* TestTeamApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTeamApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90969CF91C38705C005A57A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90969CFB1C38705C005A57A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 				90969CFC1C38705C005A57A1 /* AppDelegate.m */,
 				90969CFE1C38705C005A57A1 /* ViewController.h */,
 				90969CFF1C38705C005A57A1 /* ViewController.m */,
-				143E671A1C387A89006243A8 /* VladObject.swift */,
+				143E671C1C387B51006243A8 /* TestVlad.swift */,
 				90969D011C38705C005A57A1 /* Main.storyboard */,
 				90969D041C38705C005A57A1 /* Assets.xcassets */,
 				90969D061C38705C005A57A1 /* LaunchScreen.storyboard */,
@@ -155,8 +155,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				143E671D1C387B51006243A8 /* TestVlad.swift in Sources */,
 				90969D001C38705C005A57A1 /* ViewController.m in Sources */,
-				143E671B1C387A89006243A8 /* VladObject.swift in Sources */,
 				90969CFD1C38705C005A57A1 /* AppDelegate.m in Sources */,
 				90969CFA1C38705C005A57A1 /* main.m in Sources */,
 			);

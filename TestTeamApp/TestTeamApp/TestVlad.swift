@@ -1,5 +1,5 @@
 //
-//  VladObject.swift
+//  TestVlad.swift
 //  TestTeamApp
 //
 //  Created by Vlad Petruk on 1/2/16.
@@ -8,6 +8,6 @@
 
 import UIKit
 
-class VladObject: NSObject {
-    
+class TestVlad: NSObject {
+
 }
