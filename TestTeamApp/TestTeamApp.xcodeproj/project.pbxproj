@@ -16,7 +16,6 @@
 		90969D051C38705C005A57A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90969D041C38705C005A57A1 /* Assets.xcassets */; };
 		90969D081C38705C005A57A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90969D061C38705C005A57A1 /* LaunchScreen.storyboard */; };
 		90969D111C387C2B005A57A1 /* MyNewTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 90969D101C387C2B005A57A1 /* MyNewTestClass.m */; };
-		90969D171C3883A0005A57A1 /* тгтгтг.m in Sources */ = {isa = PBXBuildFile; fileRef = 90969D161C3883A0005A57A1 /* тгтгтг.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +37,6 @@
 		90969D121C387DAF005A57A1 /* Class111.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Class111.h; sourceTree = "<group>"; };
 		90969D131C387DAF005A57A1 /* Class111.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Class111.m; sourceTree = "<group>"; };
 		90969D151C3883A0005A57A1 /* тгтгтг.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "тгтгтг.h"; sourceTree = "<group>"; };
-		90969D161C3883A0005A57A1 /* тгтгтг.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "тгтгтг.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +78,6 @@
 				90969D131C387DAF005A57A1 /* Class111.m */,
 				143E67221C3882EB006243A8 /* куну.swift */,
 				90969D151C3883A0005A57A1 /* тгтгтг.h */,
-				90969D161C3883A0005A57A1 /* тгтгтг.m */,
 				90969D0F1C387C2B005A57A1 /* MyNewTestClass.h */,
 				90969D101C387C2B005A57A1 /* MyNewTestClass.m */,
 				90969D011C38705C005A57A1 /* Main.storyboard */,
@@ -178,7 +175,6 @@
 				90969CFD1C38705C005A57A1 /* AppDelegate.m in Sources */,
 				143E67231C3882EB006243A8 /* куну.swift in Sources */,
 				90969CFA1C38705C005A57A1 /* main.m in Sources */,
-				90969D171C3883A0005A57A1 /* тгтгтг.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
